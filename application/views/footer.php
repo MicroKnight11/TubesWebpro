@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2">
-                        <div class="footer-logo"><img src="footer-logo.png" alt="Micron blue M encircled with slanted blue line " class="img-fluid pb-4" style="min-width: 150px; height: auto; min-height: 150px; max-height: 150px; width: auto;"></div>
+                        <div class="footer-logo"><img src=<?= base_url('assets/photo/')."footer-logo.png"?> alt="Micron blue M encircled with slanted blue line " class="img-fluid pb-4" style="min-width: 150px; height: auto; min-height: 150px; max-height: 150px; width: auto;"></div>
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-nav-right">
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="additional-logos d-flex justify-content-end">
-                            <a href="https://www.crucial.com/" data-type="CTALink" data-value="Crucial logo" data-section="Footer" class=""><img src="crucial.png" alt="Crucial by Micron"></a>
+                            <a href="https://www.crucial.com/" data-type="CTALink" data-value="Crucial logo" data-section="Footer" class=""><img src=<?= base_url('assets/photo/').'crucial.png'?> alt="Crucial by Micron"></a>
                         </div>
                     </div>
                 </div>
