@@ -1,0 +1,168 @@
+/*bold*/
+@font-face {
+    font-family: "HelveticaNeueLT-bd Pro 55 Roman"; 
+    src: url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.eot"); 
+    src: url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.svg#HelveticaNeueLT Pro 55 Roman") format("svg"); 
+}
+@import url(//db.onlinewebfonts.com/c/103581eb752b4fa618534d266d46d568?family=HelveticaNeueLT+Pro+55+Roman);
+/*normal*/
+@font-face{
+        font-family: 'HelveticaNeueLT Pro 55 Roman'; 
+        src: url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.eot"); 
+        src: url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.svg#HelveticaNeueLT Pro 55 Roman") format("svg"); 
+}
+@import url(//db.onlinewebfonts.com/c/5fe894d3e06d8f07fbe9d80b3157afd5?family=HelveticaNeueLT+Pro+55+Roman);
+
+body{
+    color: black;
+    font-family:'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    background-color: white;
+}
+section.breadcrumbs-wrapper{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    color: #000000;
+    font-size: 18px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    width: 1430px;
+    height: 92px;
+}
+ul.breadcrumb{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    background-color: #FFFFFF;
+}
+
+li.breadcrumb-item{ 
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+a{
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 14px;
+    color: #D1D2D4;
+    font-weight: bold;
+ }
+
+li.breadcrumb-item.active{
+    color: #0090DA;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;    
+}
+
+h2.font-weight-bold{
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 36px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 38px;
+    width: 936px;
+    height: 38.67px;
+}
+
+form.d-flex{
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 18px;
+    color: black;
+    margin-top: 10px; 
+    margin-bottom: 35px; 
+    margin-left: 230px; 
+    margin-right: 60px;
+    padding: 32px;
+    display: block;
+    box-align: center;
+    width : 936px;
+    height: 46px;
+}
+
+label.aligm{
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    color: black;
+    font-size: 14px;
+    margin: 12px;
+    align-content: unset;
+    width: 126.77px;
+    height: 20px;
+}
+
+select#productFamily.form-control{
+    color: black;
+    font-size: 14px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    margin-right: 13px;
+    margin-left: 15px;
+    width: 227.33px;
+    height: 44px;
+}
+
+select#productTechnology.form-control{
+    color: black;
+    font-size: 14px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    width: 227.33px;
+    height: 44px;
+    margin-right: 13px;
+}
+
+input.btn.btn-primary{
+    color: white;
+    font-family:'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 14px;
+    text-align : normal;
+    padding: 0px,16px;
+    margin : 0px, 5px;
+    width: 200px;
+    height: 45px;
+}
+
+section.bg-light.px-5.py-2{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    padding : 64px,16px,0px,0px;
+}
+
+a.page-link{
+    padding: 0px,18px,0px,0px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 18px;
+    color: #808284;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline-color: #f8f9fa;
+}
+
+th{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding: 0px,0px,0px,10px;
+    width : 1200px;
+    height: 43.46px;
+}
+
+
+td{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 14px;
+    color:#0090DA;
+    font-weight: normal;
+}
