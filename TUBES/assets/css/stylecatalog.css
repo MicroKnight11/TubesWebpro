@@ -1,0 +1,147 @@
+@import "font.css";
+
+body{
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+    background-color: white;
+    font-size: 18px;
+}
+
+section.breadcrumbs-wrapper{
+    color: #000000;
+    margin-top: 100px;
+    font-family : 'HelveticaNeueLT-bd Pro 55 Roman'
+}
+
+li.breadcrumb-item {
+    margin-right : 5px;
+    margin-left : 0px;
+}
+
+div.a{
+    color : #D1D2D4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+ul.breadcrumb{
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-left : 45px;
+}
+
+section.products-intro-wrapper.container-fluid{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    width:92px;
+}
+
+h2.font-weight-bold{
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 36px;
+    color: black;
+    text-align: normal;
+    width: 940px;
+}
+
+div.d-flex{
+    font-size: 18px;
+    color: black;
+    margin-right: 180px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    margin-left: 5px;
+    width: 940px;
+}
+
+label.alignment-center{
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    color: black;
+    font-size: 14px;
+    margin-right: 32px;
+    margin-left: 0px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+
+select#productFamily.form-control.ml-3{
+    color: black;
+    font-size: 14px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+
+select#productTechnology.form-control.mx-3{
+    color: black;
+    font-size: 14px;
+    padding-top: 2px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    cursor: pointer;
+}
+
+a#submitBtn.btn.btn-primary.text-white{
+    background-color: #0090DA;
+    font-family:'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 14px;
+    padding-top: 10px;
+
+}
+
+section.px-5.py-2{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    background-color: #EDEDED;
+    padding-left: 64px;
+    padding-top: 16px; 
+}
+
+th.sorting_desc{
+    font-family:'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size : 14px;
+    margin: 14.4px;
+    padding-bottom : 10px;
+    background-color: #0090DA;
+}
+
+th.sorting{
+    font-family:'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 14px;
+    margin: 14.4px;
+    background-color: #0090DA;
+}
+
+
+td{
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 14px;
+}
+
+td.sorting_1{
+    color:#0090DA;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 32px;
+    padding-right: 8px;
+}
+
+ul.pagination{
+    padding: 32px;
+}
+
+a.page-link{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    padding: 5px, 16px;
+    color: #808284;
+    background-color: #EDEDED;
+}
+
+a.page-link::content{
+    color: #0090DA;
+}
+
+

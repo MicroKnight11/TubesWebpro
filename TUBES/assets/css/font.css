@@ -1,0 +1,22 @@
+/*bold*/
+@font-face {
+    font-family: "HelveticaNeueLT-bd Pro 55 Roman"; 
+    src: url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.eot"); 
+    src: url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/103581eb752b4fa618534d266d46d568.svg#HelveticaNeueLT Pro 55 Roman") format("svg"); 
+}
+@import url(//db.onlinewebfonts.com/c/103581eb752b4fa618534d266d46d568?family=HelveticaNeueLT+Pro+55+Roman);
+/*normal*/
+@font-face{
+        font-family: 'HelveticaNeueLT Pro 55 Roman'; 
+        src: url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.eot"); 
+        src: url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/5fe894d3e06d8f07fbe9d80b3157afd5.svg#HelveticaNeueLT Pro 55 Roman") format("svg"); 
+}
+@import url(//db.onlinewebfonts.com/c/5fe894d3e06d8f07fbe9d80b3157afd5?family=HelveticaNeueLT+Pro+55+Roman);

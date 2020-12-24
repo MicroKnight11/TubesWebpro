@@ -1,0 +1,47 @@
+@import "font.css";
+
+div.upper-footer.container-fluid.p-4{
+    border-top: 2px solid;
+    border-top-width: 2px;
+    border-top-color: #D1D2D4;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+}
+
+a{
+    font-size: 15px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    color: #0090DA;
+}
+
+li.px-3{
+    margin-top: 23px;
+}
+
+a.btn.px-4.mx-2{
+    border:  round;
+    border-color: gray;
+    width : 115px;
+    margin-top: 23px;
+}
+
+li.p-4{
+    margin-top:0px;
+}
+
+div.copyright-message{
+    font-size: 12px;
+    margin-top :15px;
+}
+div.lower-footer.container-fluid{
+    background-color: #D1d2d4;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    margin-bottom : 15px;
+    padding: 3px;
+}
+
+a.text-dark{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 12px;
+}
