@@ -10,7 +10,7 @@ h1.display-4{
     font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
     font-size : 72px;
     color: white;
-    margin-left : 150px;
+    /* margin-left : 150px; */
     margin-top : 100px;
 }
 
@@ -19,7 +19,7 @@ p.lead.text-light{
     font-size: 26px;
     margin-top : 45px;
     max-width : 700px;
-    margin-left : 155px;
+    /* margin-left : 155px; */
     margin-bottom : 0px;
     max-height : 80px;
     height: auto;
@@ -31,7 +31,7 @@ a.btn.btn-light{
     color: white;
     font-size : 18px;
     width : 200px;
-    margin-left: -145px;
+    /* margin-left: -145px; */
     margin-top : 0px;
     outline-style: solid;
     outline-width: 2px;
@@ -71,7 +71,7 @@ div.jumbotron-fluid{
     font-family : 'HelveticaNeueLT-bd Pro 55 Roman';
     margin-top : 0px;
     margin-bottom : 50px;
-    max-height : 35px;
+    /* max-height : 35px; */
 }
 
 
@@ -84,11 +84,11 @@ h2.display-4{
     position : middle;
 }
 
-div.row.justify-content-center{
+/* div.row.justify-content-center{
     margin-top : 50px;
     min-width : 500px;
     width : auto;
-}
+} */
 
 p.lead.text-dark{
     font-size: 18px;
@@ -103,7 +103,6 @@ p.lead.text-dark{
 h3.display-4{
     font-size: 36px;
     color : white;
-    margin-left : 300px;
     margin-right : 0px;
     margin-top : 55px;
     margin-bottom : 20px;
@@ -113,9 +112,8 @@ p.lead{
     font-family: 'HelveticaNeueLT Pro 55 Roman';
     color: white;
     font-size : 18px;
-    margin-left: 300px;
     margin-top : 35px;
-    width : 500px;
+    /* width : 500px; */
 }
 
 a.btn.btn-lg{

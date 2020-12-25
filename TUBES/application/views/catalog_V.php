@@ -11,7 +11,7 @@
         </script>
         <script type="text/javascript" charset="utf8" src=<?= base_url('assets/script/').'catalog.js'?>></script>
     </head>
-    <body>
+    <body style="margin-top: 75px">
         <section class="breadcrumbs-wrapper">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Products</a></li>

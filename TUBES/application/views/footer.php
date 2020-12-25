@@ -1,7 +1,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href=<?=base_url('assets/css/stylefooter.css')?>> -->
+        <link rel="stylesheet" href=<?=base_url('assets/css/stylefooter.css')?>>
+        <link href="//db.onlinewebfonts.com/c/103581eb752b4fa618534d266d46d568?family=HelveticaNeueLT+Pro+55+Roman" rel="stylesheet" type="text/css"/>
+        <link href="//db.onlinewebfonts.com/c/5fe894d3e06d8f07fbe9d80b3157afd5?family=HelveticaNeueLT+Pro+55+Roman" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <footer id="site-footer" class="">
@@ -24,9 +26,12 @@
                     <div class="col-lg-5">
                         <div class="footer-nav-right">
                             <div class="footer-buttons d-flex justify-content-end mb-4">
-                                <a href="/support/sales-network" data-value="Sales" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Sales</a>
+                                <!-- <a href="/support/sales-network" data-value="Sales" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Sales</a>
                                 <a href="/support" data-value="Support" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Support</a>
-                                <a href="/forms/contact-us" data-value="Contact" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Contact</a>
+                                <a href="/forms/contact-us" data-value="Contact" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Contact</a> -->
+                                <a href="/support/sales-network" data-value="Sales" data-type="CTALink" data-section="Footer" class="btn px-4 mx-2" style="color:gray; font-size: 14px">Sales</a>
+                                <a href="/support" data-value="Support" data-type="CTALink" data-section="Footer" class="btn px-4 mx-2"style="color:gray; font-size:14px">Support</a>
+                                <a href="/forms/contact-us" data-value="Contact" data-type="CTALink" data-section="Footer" class="btn px-4 mx-2"style="color:gray; font-size:14px">Contact</a>  
                             </div>
                         </div>
                         <div class="additional-logos d-flex justify-content-end">
