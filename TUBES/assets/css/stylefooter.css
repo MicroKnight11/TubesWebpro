@@ -33,12 +33,12 @@ div.copyright-message{
     font-size: 12px;
     margin-top :15px;
 }
-div.lower-footer.container-fluid{
+div.lower-footer.container-fluid.p-4{
     background-color: #D1d2d4;
     font-family: 'HelveticaNeueLT Pro 55 Roman';
     font-size: 18px;
     margin-bottom : 15px;
-    padding: 3px;
+    padding : 0px;
 }
 
 a.text-dark{
