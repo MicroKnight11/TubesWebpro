@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="lower-footer container-fluid">
+            <div class="lower-footer container-fluid p-4">
                 <div class="row">
                     <div class="col-lg-4">
                         <ul class="list-unstyled d-flex" >
