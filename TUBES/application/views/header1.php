@@ -44,10 +44,13 @@
                             Dropdown
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://www.micron.com" data-type="CTALink" data-value="US - English" data-section="Language selector">US - English</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://cn.micron.com" data-type="CTALink" data-value="China - 简体中文" data-section="Language selector">China - 简体中文</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://in.micron.com" data-type="CTALink" data-value="India - English" data-section="Language selector">India - English</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://jp.micron.com" data-type="CTALink" data-value="Japan - 日本語" data-section="Language selector">Japan - 日本語</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://my.micron.com" data-type="CTALink" data-value="Malaysia - English" data-section="Language selector">Malaysia - English</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://sg.micron.com" data-type="CTALink" data-value="Singapore - English" data-section="Language selector">Singapore - English</a>
+                                <a class="dropdown-item" style="color:#0090DA" href="https://tw.micron.com" data-type="CTALink" data-value="Taiwan – 繁體中文" data-section="Language selector">Taiwan – 繁體中文</a>
                             </div>
                         </li>
                         <li class="nav-item navbar-text text-white">
@@ -57,7 +60,7 @@
                             <a class="nav-link click-toggle navbar-text text-white" href="#collapseLogin" id="login" role="button" data-toggle="collapse">
                             Login
                             </a>
-                            <div class="container collapse" id="collapseLogin">   
+                            <div class="container collapse" id="collapseLogin" style="background-color: white; width:425px; margin-top:425px">   
                                 <div class="login-box">
                                     <h4>Login</h4>
                                     <form id="login_form" name="log-in" action="" method="" class="d-flex flex-column">
@@ -115,5 +118,3 @@
     </ul>
   </div>
 </nav> -->
-    </body>
-</html>
