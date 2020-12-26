@@ -9,11 +9,22 @@ class Controller extends CI_Controller
 		$this->load->model('Profile_M');
 	}
 
-
 	public function index()
 	{
 		$this->load->view('header');
 		$this->load->view('landing');
+		$this->load->view('footer');
+	}
+
+	public function product(){
+		$this->load->view('header');
+		$this->load->view('product_V');
+		$this->load->view('footer');
+	}
+
+	public function sales(){
+		$this->load->view('header');
+		$this->load->view('sales-network_V');
 		$this->load->view('footer');
 	}
 

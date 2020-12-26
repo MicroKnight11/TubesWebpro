@@ -1,7 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href=<?=base_url('assets/css/stylecatalog.css')?>> -->
+        <link rel="stylesheet" href=<?=base_url('assets/css/stylecatalog.css')?>>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
@@ -10,6 +10,7 @@
             var base_url = '<?= base_url()?>'
         </script>
         <script type="text/javascript" charset="utf8" src=<?= base_url('assets/script/').'catalog.js'?>></script>
+        <title>DDR4 SDRAM Part Catalog</title>
     </head>
     <body style="margin-top: 75px">
         <section class="breadcrumbs-wrapper">
@@ -23,7 +24,7 @@
         <section class="products-intro-wrapper container-fluid col-8 my-5">
             <h2 class="font-weight-bold mb-5">DDR4 SDRAM Part Catalog</h2>
             <br>
-            <div class="d-flex">
+            <div class="d-flex" id="select_part">
                 <label for="cars" class="alignment-center">View Part Catalogs</label>
                 <select class="form-control ml-3" name="productFamily" id="productFamily" style="width: 230px; height: 45px;">
                     <option id="defaultFamily" selected>Product Family</option>

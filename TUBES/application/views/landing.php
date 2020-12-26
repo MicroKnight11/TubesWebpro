@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/css/stylelanding.css')?>">
         <link href="//db.onlinewebfonts.com/c/103581eb752b4fa618534d266d46d568?family=HelveticaNeueLT+Pro+55+Roman" rel="stylesheet" type="text/css"/>
         <link href="//db.onlinewebfonts.com/c/5fe894d3e06d8f07fbe9d80b3157afd5?family=HelveticaNeueLT+Pro+55+Roman" rel="stylesheet" type="text/css"/>
+        <title>Micron Technology, Inc.</title>
     </head>
     <body style="margin-top: 75px">
         <!-- tinggal rapihin sama kasih gambar tiap jumbotron sama card-deck yang pertama -->
