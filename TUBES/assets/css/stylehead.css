@@ -1,0 +1,110 @@
+@import "font.css";
+
+nav.navbar.navbar-expand-lg.fixed-top{
+    background-color: #0090DA;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    padding: 6px;
+}
+
+div.navbar-brand{
+    margin-top : 8px;
+    margin-bottom : 10px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+ul.navbar-nav.ml-5{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    color: black;
+}
+
+span{
+    padding: 0px, 33px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+a.navbar-text.text-white{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 16px;
+}
+
+div.login-box{
+    background-color: white;
+    max-height: 440px;
+    max-width: 440px;
+}
+input.form-control {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    background-color: transparent;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: -8px;
+  }
+input.form-control:focus {
+    border-color: black;
+  }
+
+div.dropdown-menu.show{
+    background-color: white;
+    padding : 10px;
+    margin-left : -70px;
+    max-width : 190px;
+    max-height : 465px;
+    margin-top : 18px;
+    
+}
+
+a.dropdown-item{
+    padding: 14px;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    color: #3e3e3e;
+    padding: 20px;
+}
+label.form-check-label{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+input.btn.sm-2{
+    background-color: #0090DA;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top : 3px;
+    padding-bottom : 3px;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #0090da;
+}
+
+a{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+div.register-box.text-center{
+    background-color: #ededed;
+    padding: 30px;
+}
+
+a.btn.sm-2{
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 14px;
+    background-color: #ededed;
+    color: #0090DA;
+    outline-width: 2px;
+    outline-color: #0090DA;
+    outline-style: solid;
+}
