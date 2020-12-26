@@ -47,12 +47,12 @@
                     <thead style="background: #007bff; color: white">
                         <tr>
                             <th scope="col">+ Filters</th>
-                            <th scope="col" style="width: 115px">Density</th>
-                            <th scope="col" style="width: 115px">Part Status</th>
-                            <th scope="col" style="width: 115px">Depth</th>
-                            <th scope="col" style="width: 115px">Width</th>
-                            <th scope="col" style="width: 115px">Op.Temp</th>
-                            <th scope="col" style="width: 115px">Industry Speed</th>
+                            <th scope="col" style="width: 115px"><a class="text-white" href="#" style="text-decoration: none;">Density</a></th>
+                            <th scope="col" style="width: 115px"><a class="text-white" href="#" style="text-decoration: none;">Part Status</a></th>
+                            <th scope="col" style="width: 115px"><a class="text-white" href="#" style="text-decoration: none;">Depth</a></th>
+                            <th scope="col" style="width: 115px"><a class="text-white" href="#" style="text-decoration: none;">Width</a></th>
+                            <th scope="col" style="width: 115px"><a class="text-white" href="#" style="text-decoration: none;">Op.Temp</a></th>
+                            <th scope="col" style="width: 115px"><a class="text-white" href="#" style="text-decoration: none;">Industry Speed</a></th>
                         </tr>
                     </thead>
                     <thead>
@@ -62,7 +62,7 @@
                         <tr><?php foreach ($item as $i) : ?>
                             <td scope="col">
                                 <h7><?= $i['name']; ?></h7>
-                                <a class="text-right" href="#">icon</a>
+                                <!-- <a class="text-right" href="#">icon</a> -->
                             </td>
                             <td scope="col"><?= $i['density']; ?></td>
                             <td scope="col"><?= $i['status']; ?></td>

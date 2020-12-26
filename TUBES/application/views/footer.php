@@ -12,8 +12,8 @@
                     <div class="col-lg-5">
                         <div class="footer-nav-left mb-4">
                             <ul class="list-unstyled d-flex">
-                                <li class="px-3"><a href="/products" data-value="Products" data-type="CTALink" data-section="Footer">Products</a></li>
-                                <li class="px-3"><a href="/solutions" data-value="Solutions" data-type="CTALink" data-section="Footer">Solutions</a></li>
+                                <li class="px-3"><a href=<?= site_url('index.php/controller/catalog'); ?> data-value="Products" data-type="CTALink" data-section="Footer">Products</a></li>
+                                <li class="px-3"><a href=<?= site_url('index.php/controller/solution'); ?> data-value="Solutions" data-type="CTALink" data-section="Footer">Solutions</a></li>
                                 <li class="px-3"><a href="/support" data-value="Support" data-type="CTALink" data-section="Footer">Support</a></li>
                                 <li class="px-3"><a href="/insight" data-value="Insight" data-type="CTALink" data-section="Footer">Insight</a></li>
                                 <li class="px-3"><a href="/about" data-value="About" data-type="CTALink" data-section="Footer">About</a></li>
@@ -26,9 +26,6 @@
                     <div class="col-lg-5">
                         <div class="footer-nav-right">
                             <div class="footer-buttons d-flex justify-content-end mb-4">
-                                <!-- <a href="/support/sales-network" data-value="Sales" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Sales</a>
-                                <a href="/support" data-value="Support" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Support</a>
-                                <a href="/forms/contact-us" data-value="Contact" data-type="CTALink" data-section="Footer" class="btn btn-outline-dark px-4 mx-2">Contact</a> -->
                                 <a href="/support/sales-network" data-value="Sales" data-type="CTALink" data-section="Footer" class="btn px-4 mx-2" style="color:gray; font-size: 14px">Sales</a>
                                 <a href="/support" data-value="Support" data-type="CTALink" data-section="Footer" class="btn px-4 mx-2"style="color:gray; font-size:14px">Support</a>
                                 <a href="/forms/contact-us" data-value="Contact" data-type="CTALink" data-section="Footer" class="btn px-4 mx-2"style="color:gray; font-size:14px">Contact</a>  
@@ -44,10 +41,10 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <ul class="list-unstyled d-flex" >
-                            <li class="py-4 pr-4"><a href="/legal" data-value="Legal" data-type="CTALink" data-section="Footer" class="text-dark">Legal</a></li>
-                            <li class="p-4"><a href="/privacy" data-value="Privacy" data-type="CTALink" data-section="Footer" class="text-dark">Privacy</a></li>
-                            <li class="p-4"><a href="/about/our-commitment/sourcing-responsibly/suppliers" data-value="Suppliers" data-type="CTALink" data-section="Footer" class="text-dark">Suppliers</a></li>
-                            <li class="p-4"><a href="/careers" data-value="Careers" data-type="CTALink" data-section="Footer" class="text-dark">Careers</a></li>
+                            <li class="py-4 pr-4"><a href="#" data-value="Legal" data-type="CTALink" data-section="Footer" class="text-dark">Legal</a></li>
+                            <li class="p-4"><a href="#" data-value="Privacy" data-type="CTALink" data-section="Footer" class="text-dark">Privacy</a></li>
+                            <li class="p-4"><a href="#" data-value="Suppliers" data-type="CTALink" data-section="Footer" class="text-dark">Suppliers</a></li>
+                            <li class="p-4"><a href="#" data-value="Careers" data-type="CTALink" data-section="Footer" class="text-dark">Careers</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-8">

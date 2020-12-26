@@ -9,7 +9,7 @@
         <!-- tinggal rapihin sama kasih gambar tiap jumbotron sama card-deck yang pertama -->
         <section class="container-fluid" id="jumbotron1">
             <!-- <div class="row justify-content-center" style="background:url('assets/photo/headerlanding.jpg');background-position: left; background-size:105%; height: 410px; margin-top: 75px"> -->
-            <div class="row justify-content" style="background:url('assets/photo/headerlanding.jpg');background-position: left; background-size:130%; height: 450px;">
+            <div class="row justify-content" style="background: url('<?= base_url('assets/photo/headerlanding.jpg');?>');background-position: left; background-size:130%; height: 450px;">
                 <div class="jumbotron-fluid bg-transparent" style="height:1000px; margin-left: 150px;">
                     <h1 class="display-4" id="judul1">Unique Suggestions</h1>
                     <p class="lead text-light">Micron's memory and storage innovations are helping you shop, binge and surf in a more personalized way.</p>
@@ -90,7 +90,7 @@
             </div>
         </section>
         <section class="container-fluid" id="jumbotron3">
-            <div class="row justify-content-center" style="background:url(assets/photo/team.jpg); height : 465px; background-size: 100%;">
+            <div class="row justify-content-center" style="background: url('<?= base_url('assets/photo/team.jpg');?>'); height : 465px; background-size: 100%;">
                 <div class="jumbotron-fluid" style="max-width: 60vw; max-height: 550px;">
                     <h3 class="display-4">Change the world. Join our team.</h3>
                     <p class="lead">Our memory needs your mind. At Micron, we're looking for visionaries, scientists, 

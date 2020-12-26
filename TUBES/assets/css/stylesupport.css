@@ -1,0 +1,69 @@
+.header{
+	padding-top: 150px;
+	padding-bottom: 200px;
+	padding-left: 150px;
+	color: white;
+}
+
+.header h1{
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+.row{
+	margin-left: 30px;
+}
+
+.col-3{
+	margin: 20px;
+	font-size: 17px;
+}
+
+.col-4{
+	margin: 20px;
+	font-size: 17px;
+}
+
+.col-12 h2{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.col-12 p{
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+
+.col-12 a{
+	background-color: cyan;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.container h2{
+	margin: 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.container h3{
+	margin-bottom: 30px;
+}
+
+.container p{
+	margin-bottom: 30px;
+}
+
+.faqs{
+	color: white;
+}
+
+.faqs a{
+	background-color: cyan;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 700px;
+}

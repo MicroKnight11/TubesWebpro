@@ -1,0 +1,57 @@
+.header{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 300px;
+	padding-right: 630px;
+	background-position: 50% 55%;
+	color: white;
+}
+
+.header h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Arial';
+	padding-bottom: 40px;
+}
+
+.header p{
+	font-size: 25px;
+}
+
+.container{
+	padding-left: 50px;
+}
+
+.container h2{
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.container h3{
+	color: cyan;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.row{
+	padding-bottom: 50px;
+}
+
+.col-6{
+	padding-right: 40px;
+}
+
+.col-6 select{
+	color: cyan;
+	font-family: 'Arial';
+	font-weight: bold;
+	padding: 10px 200px 10px 10px;
+}
+
+.solusi{
+	background-color: lightgrey;
+}
