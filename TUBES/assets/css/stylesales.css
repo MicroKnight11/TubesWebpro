@@ -1,0 +1,100 @@
+@import "font.css";
+
+body{
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 18px;
+    color : black;
+}
+
+h1.py-3{
+    font-size: 36px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    margin-left : 0px;
+    margin-bottom : 0px;
+    margin-top : 10px;
+    
+}
+
+p{
+    color : black;
+    font-size: 18px;
+    margin: 0 0 16px;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+}
+
+section.sales-network-breadcrumb{
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+section#sales-network.w-100.mb-5{
+    margin-top : 60px;
+    margin-left: 0px;
+}
+
+ol.breadcrumb{
+    margin-bottom: 0px; 
+    margin-top : 100px; 
+    background-color: transparent;
+}
+
+li.breadcrumb-item{
+    color : #D1D2D4;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 14px;
+}
+
+li.breadcrumb-item.active{
+    color : #0090Da;
+    font-size: 14px;
+}
+
+a.btn.btn-primary.rounded-0.py-2.btn-authorized{
+    background-color: #0090Da;
+    color : white;
+    font-size: 18px;
+    font-family : 'HelveticaNeueLT-bd Pro 55 Roman';
+    padding: 10, 20px;
+}
+
+select.form-control.form-control-lg.rounded-0{
+    font-size: 18px;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    padding: 10px;
+    color : black;
+    cursor : pointer;
+}
+
+button.btn.btn-primary.rounded-0.text-uppercase.px-5.py-2{
+    background-color : #0090Da;
+    padding: 5, 15px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    font-size: 18px;
+}
+
+button.btn.btn-primary.rounded-0.text-uppercase.px-5.py-2:hover{
+    background-color: #0572a8;
+}
+
+a.btn.btn-primary.rounded-0.py-2.btn-authorized:hover{
+    background-color: #0572a8;
+}
+
+a.btn.btn-outline-primary.rounded-0.py-2.px-5.btn-authorized{
+    color : #0090Da;
+    font-size: 18px;
+}
+
+a.btn.btn-outline-primary.rounded-0.py-2.px-5.btn-authorized:hover{
+    color : #0572a8;
+    background-color: transparent;
+}
+
+a.btn.btn-primary.rounded-0.py-2.btn-sample-center{
+    color: white;
+    background-color: #0090Da;
+    font-size: 18px;
+}
+a.btn.btn-primary.rounded-0.py-2.btn-sample-center:hover{
+    background-color: #0572a8;
+}
