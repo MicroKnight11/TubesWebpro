@@ -1,84 +1,138 @@
 @import "font.css";
 
-
 nav.navbar.navbar-expand-lg.fixed-top{
     background-color: #0090DA;
-    height:75px;
-    font-family: 'HelveticaNeueLT Pro 55 Roman';
-    font-size: 18px;
-    color :#000000;
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+    font-size : 18px;
+    padding : 6px;
 }
 
 div.navbar-brand{
-    margin-left : 22px;
-    margin-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left : 25px;
+    margin-right : 5px;
+}
+
+ul.navbar-nav.ml-5{
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+    font-size : 18px;
+    color : black;
+    margin-left : 10px;
+}
+
+a.navbar-text{
+    color : white;
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+}
+
+span{
+    padding : 0px, 33px;
+    margin-left : 10px;
+    margin-right : 0px;
+    background-color: transparent;
 }
 
 a.navbar-text.text-white{
     font-family: 'HelveticaNeueLT Pro 55 Roman';
     font-size: 16px;
-    font-weight: lighter;
 }
 
-li.nav-item{
-    margin-right : 20px;
-    margin-left : 8px;
+div.login-box{
+    background-color : white;
+    max-height : 440px;
+    max-width : 440px;
+}
+
+input.form-control{
+    outline : 0;
+    border-width: 0 0 2px;
+    border-color : black;
+    background-color : transparent;
+    font-size: 14px;
+    margin-top : 5px;
+    margin-bottom : 30px;
+    margin-left: -8px;
+}
+
+input.form-control:focus{
+    border-color : black;
+}
+
+div.dropdown-menu.show{
+    background-color : white;
+    padding: 10px;
+    margin-left : -70px;
+    max-width: 190px;
+    max-height : 465px;
+    margin-top : 18px;
+}
+
+a.dropdown-item{
+    padding: 14px;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    color : #3E3E3E;
+    padding: 20px;
+}
+
+a.dropdown-item:hover{
+    color : #0090Da;
+    background-color : transparent;
+}
+
+label.form-check-label{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+    font-size: 14px;
+    color : #3E3E3E;  
+}
+
+input.btn.sm-2{
+    background-color : #0090DA;
+    font-size: 14px;
+    font-weight : lighter;
+    color : white;
+    font-family : 'HelveticaNeueLT-bd Pro 55 Roman';
+    padding-left : 64px;
+    padding-right : 64px;
+    padding-top : 3px;
+    padding-bottom : 3px;
+}
+
+input.btn-sm-2:hover{
+    background-color : #017CB9;
 }
 
 
-li.nav-item.mx-4{
-    margin-left : 8px;
-    margin-right: 8px;
-
+div.form-check:hover {
+    color : #3E3E3E;
 }
 
-span {
-    margin-right : 8px;
-    height : auto;
-    min-height : 40px;
+
+button.btn.lg-4{
+    padding-left: 130px;
+    padding-right : 130px;
+    font-size: 14px; 
+    background-color : #ededed; 
+    color :#0090DA; 
+    outline-width : 2px; 
+    outline-color : #0090dA; 
+    outline-style : solid; 
+    font-weight: bold;
 }
 
-ul.navbar-nav{
-    margin-left : 85px;
-    padding-left : 5px;
-    padding-right : 5px;
+button.btn.lg-4:hover{
+    transition: 0.5ms;
+    color : #017CB9;
+    outline-color : #017CB9;
+    font-weight: bold;
 }
 
-div.collapse.navbar-collapse{
-    padding : 5px;
+div.register-box.text-center{
+    color : #3e3e3e;
+    background-color : #ededed;
+    padding: 40px;
 }
 
-div{
-    margin-right : 0px;
-    margin-left : 0px;
-}
-a#navbarDropdown.nav-link.dropdown-toggle.navbar-text.text-white{
-    font-size : 14px;
-    padding-top : 20px;
-    padding-right : 5px;
-    padding-left: 2px;
-    margin-right : 7px;
-}
-
-li.nav-item.navbar-text.text-white{
-    font-size : 14px;
-    padding : 5px;
-    margin-top : 11px;
-    margin-bottom : 11px;
-    margin-left: 0px;
-    margin-right : 0px;
-
-    
-}
-
-a#login.nav-link.click-toggle.navbar-text.text-white{
-    font-size : 14px;
-    padding-bottom : 10px;
-    margin-top : 10px;
-    margin-left : 0px;
-}
-
-li.nav-item.dropdown{
-    margin-right : 0px;
-    margin-left : 5px;
+div.login-help.text-center.mt-4{
+    color : #0090DA;
 }
