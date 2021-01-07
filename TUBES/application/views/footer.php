@@ -21,12 +21,12 @@
                                 <li class="px-3"><a href="#" data-value="About"  data-section="Footer">About</a></li>
                             </ul>
                         </div>
-                        <div class="social-media my-4">
+                        <div class="social-media my-4" style ="margin-left :-22px">
                             <ul>
-                                <li class="d-inline-block mr-2" ><a href="#"><i class="fab fa-facebook-f social-media-icon"></i></a></li>
-                                <li class="d-inline-block mr-2"><a href="#"><i class="fab fa-twitter social-media-icon"></i></a></li>
-                                <li class="d-inline-block mr-2"><a href="#"><i class="fab fa-linkedin-in social-media-icon"></i></a></li>
-                                <li class="d-inline-block mr-2"><a href="#"><i class="fab fa-youtube social-media-icon"></i></a></li>
+                                <li class="d-inline-block mr-2" style= "width : 22px" ><a href="#"><i class="fab fa-facebook-f social-media-icon"></i></a></li>
+                                <li class="d-inline-block mr-2" style= "width : 22px"><a href="#"><i class="fab fa-twitter social-media-icon"></i></a></li>
+                                <li class="d-inline-block mr-2" style= "width : 22px"><a href="#"><i class="fab fa-linkedin-in social-media-icon"></i></a></li>
+                                <li class="d-inline-block mr-2" style= "width : 22px"><a href="#"><i class="fab fa-youtube social-media-icon"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,8 +37,8 @@
                         <div class="footer-nav-right">
                             <div class="footer-buttons d-flex justify-content-end mb-4">
                                 <a href=<?= site_url('index.php/controller/sales'); ?> data-value="Sales"  data-section="Footer" class="btn px-4 mx-2" style="color:gray; font-size: 14px">Sales</a>
-                                <a href="#" data-value="Support"  data-section="Footer" class="btn px-4 mx-2"style="color:gray; font-size:14px">Support</a>
-                                <a href="#" data-value="Contact"  data-section="Footer" class="btn px-4 mx-2"style="color:gray; font-size:14px">Contact</a>  
+                                <a href="#" data-value="Support"  data-section="Footer" class="btn px-4 mx-2 rounded-0"style="color:gray; font-size:14px">Support</a>
+                                <a href="#" data-value="Contact"  data-section="Footer" class="btn px-4 mx-2 rounded-0"style="color:gray; font-size:14px">Contact</a>  
                             </div>
                         </div>
                         <div class="additional-logos d-flex justify-content-end">
