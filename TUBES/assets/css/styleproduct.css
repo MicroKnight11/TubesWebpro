@@ -1,0 +1,41 @@
+@import "font.css";
+
+div.col-my{
+    color : black;
+    font-size : 18px;
+    font-family : 'HelveticaNeueLT Pro 55 Roman';
+    margin : 0 0 64px;
+}
+
+h1.font-weight-bold.py-3{
+    font-size : 36px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    margin-bottom : 30px;
+}
+
+a.d-block.text-decoration-none{
+    font-size : 24px;
+}
+
+p.memory-desc{
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+}
+
+select.form-control.form-control-lg.memory-select{
+    color : #0090Da;
+    font-size: 14px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+    padding : 10px;
+}
+
+div.row{
+    color : black;
+    font-size: 18px;
+    font-family: 'HelveticaNeueLT Pro 55 Roman';
+}
+
+select.form-control.form-control-lg.storage-select{
+    color : #0090Da;
+    font-size:14px;
+    font-family: 'HelveticaNeueLT-bd Pro 55 Roman';
+}
