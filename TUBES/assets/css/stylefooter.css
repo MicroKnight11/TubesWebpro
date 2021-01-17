@@ -2,6 +2,7 @@
 
 div.upper-footer.container-fluid.p-4{
     border-top: 2px solid;
+    border-top-width: 2px;
     border-top-color: #D1D2D4;
     font-family: 'HelveticaNeueLT Pro 55 Roman';
     font-size: 18px;
@@ -17,7 +18,7 @@ li.px-3{
     margin-top: 23px;
 }
 
-a.btn.px-4.mx-2.rounded-0{
+a.btn.px-4.mx-2{
     border:  round;
     border-color: gray;
     width : 115px;

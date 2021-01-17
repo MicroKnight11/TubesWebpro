@@ -7,15 +7,12 @@
         <title>Micron Technology, Inc.</title>
     </head>
     <body style="margin-top: 75px">
-        <!-- tinggal rapihin sama kasih gambar tiap jumbotron sama card-deck yang pertama -->
         <section class="container-fluid" id="jumbotron1">
-            <!-- <div class="row justify-content-center" style="background:url('assets/photo/headerlanding.jpg');background-position: left; background-size:105%; height: 410px; margin-top: 75px"> -->
             <div class="row justify-content" style="background: url('<?= base_url('assets/photo/headerlanding.jpg');?>');background-position: left; background-size:130%; height: 450px;">
                 <div class="jumbotron-fluid bg-transparent" style="height:1000px; margin-left: 150px;">
                     <h1 class="display-4" id="judul1">Unique Suggestions</h1>
                     <p class="lead text-light">Micron's memory and storage innovations are helping you shop, binge and surf in a more personalized way.</p>
                     <p class="lead" style="">
-                        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a> -->
                         <a class="btn btn-light" href="#" role="button" style="color: #0090DA; font-text: 18px">Read more</a>
                     </p>
                 </div>

@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Custom -->
-    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href=<?=base_url('assets/css/main.css')?>>
+    <link rel="stylesheet" href=<?=base_url('assets/css/stylesales.css')?>>
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -17,6 +18,7 @@
   </head>
   <body>
 
+    <!-- header -->
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3 fixed-top">
         <a class="navbar-brand px-4" href="#">
             <img src="./src/images/micron-logo.svg" alt="logo" width="122">
@@ -141,7 +143,7 @@
         </div>
     </section>
 
-
+    <!-- footer -->
     <!-- <footer class="w-100 py-5 px-5 d-flex justify-content-between">
         <div class="left-panel">
             <div class="site-nav my-4">

@@ -28,14 +28,6 @@ class Controller extends CI_Controller
 		$this->load->view('footer');
 	}
 
-	public function catalog(){
-		$data['item'] = $this->Catalog_M->getAllItem('ddr4_sdram');
-		$data['family'] = $this->Catalog_M->getAllFamily();
-		$data['tech'] = $this->Catalog_M->getAllTechnology();
-		$this->load->view('header');
-		$this->load->view('catalog_V', $data);
-		$this->load->view('footer');
-	}
 
 	public function solution()
 	{
@@ -78,10 +70,8 @@ class Controller extends CI_Controller
 		$repass = $_POST['re-password'];
 		if ($pass != $repass) {
 			echo "Password and Re Enter Password ain't same";
-			// $this->load->view('register', $data);
 		} else if ($this->Profile_M->check_username($username)) {
 			echo 'Username already exist';
-			// $this->load->view('register', $data);
 		} else {
 			$initialize = $this->upload->initialize(array(
 				"upload_path" => './assets/profile/',
@@ -90,9 +80,7 @@ class Controller extends CI_Controller
 				"file_name" => time() . '-' . $_FILES["uploadImage"]['name']
 			));
 			if (!$this->upload->do_upload('uploadImage')) {
-				// KERJAKAN DISINI
 				echo 'Upload failed';
-				// $this->load->view('register', $data);
 			} else {
 				$data = $this->upload->data();
 				$imagename = $data['file_name'];
@@ -103,16 +91,89 @@ class Controller extends CI_Controller
 				);
 				$result = $this->Profile_M->insert_new_profle($data);
 				if ($result) {
-					// KERJAKAN DISINI
 					echo 'success creating profile';
-					// $this->load->view('login', $data);
 				} else {
-					//KERJAKAN DISINI
 					echo 'Failed creating new profile';
-					// $this->load->view('register', $data);
 				}
 			}
 		}
 	}
 
+	// CRUD
+
+	public function catalog(){
+		$data['item'] = $this->Catalog_M->getAllItem('ddr4_sdram');
+		$data['family'] = $this->Catalog_M->getAllItem('product_family');
+		$data['tech'] = $this->Catalog_M->getAllItem('product_technology');
+		if (isset($_SESSION['username'])) {
+			$data['column'] = \array_diff($this->Catalog_M->getColumn('ddr4_sdram'), ["id", "name"]);
+			foreach ($data['column'] as $col) {
+				$data[$col] = $this->Catalog_M->getColumnData($col, 'ddr4_sdram');
+			}
+		}
+		$this->load->view('header');
+		$this->load->view('catalog_V', $data);
+		$this->load->view('footer');
+	}
+
+	public function getData(){
+		$name = $_POST['name'];
+		$data = $this->Catalog_M->getItemByName($name, 'ddr4_sdram');
+		echo json_encode($data);
+	}
+
+	public function addData()
+	{
+		$data = array(
+			"name" => $_POST['name'],
+			"density" => $_POST['density'],
+			"status" => $_POST['status'],
+			"depth" => $_POST['depth'],
+			"width" => $_POST['width'],
+			"temp" => $_POST['temp'],
+			"speed" => $_POST['speed']
+		);	
+		$state = $this->Catalog_M->tambahData($data, 'ddr4_sdram');
+		if ($state){
+			$data['state'] = 'new data created';
+		}
+		else{
+			$data['state'] = 'error creating data';
+		}
+		echo json_encode($data);
+	}
+
+	public function editData()
+	{
+		$id = $_POST['id'];
+		$data = array(
+			"name" => $_POST['name'],
+			"density" => $_POST['density'],
+			"status" => $_POST['status'],
+			"depth" => $_POST['depth'],
+			"width" => $_POST['width'],
+			"temp" => $_POST['temp'],
+			"speed" => $_POST['speed']
+		);	
+		$state = $this->Catalog_M->ubahData($id, $data, 'ddr4_sdram');
+		if ($state){
+			$data['state'] = 'data edited';
+		}
+		else{
+			$data['state'] = 'error editing data';
+		}
+		echo json_encode($data);
+	}
+
+	public function deleteData()
+	{
+		$id = $_POST['id'];
+		$data = $this->Catalog_M->hapusData($id, 'ddr4_sdram');
+		if($data){
+			echo 'data deleted successfully';
+		}
+		else{
+			echo 'error deleting data';
+		}
+	}
 }

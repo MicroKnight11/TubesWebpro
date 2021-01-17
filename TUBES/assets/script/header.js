@@ -8,7 +8,6 @@ $(document).ready(function(){
             type:'POST',
             data:data,
             success:function(response){
-                // alert(response);
                 if (response == "error"){
                     $('#login_error').show();
                 }
@@ -23,13 +22,11 @@ $(document).ready(function(){
     //logout
     $('#Logout').on('click',function(e){
         e.preventDefault(); 
-        var data = $('#login_form').serialize();
         $.ajax({
             url:base_url+'index.php/controller/logout',
             type:'POST',
-            data:data,
             success:function(){
-                location.reload();         
+                location.reload();   
             }
         }); 
         return false;    
@@ -39,17 +36,19 @@ $(document).ready(function(){
     $('#form_register').submit(function(e){
         e.preventDefault(); 
         $.ajax({
-            url:base_url+'index.php/controller/register', //URL submit
-            type:"post", //method Submit
-            data:new FormData(this), //penggunaan FormData
+            url:base_url+'index.php/controller/register',
+            type:"post",
+            data:new FormData(this),
             processData:false,
             contentType:false,
             cache:false,
             async:false,
             success: function(response){
                 alert(response);
-                $('.form-control').val('');
-                $('.modal').hide();
+                if(response == "success creating profile"){
+                    $('.form-control').val('');
+                    $('.modal').hide();
+                }
             }
         });
         return false; 

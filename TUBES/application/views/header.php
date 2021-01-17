@@ -1,11 +1,10 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <link rel="stylesheet" href=<?=base_url('assets/css/styleheader.css')?>>
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/styleheader.css')?>">
         <link href="//db.onlinewebfonts.com/c/103581eb752b4fa618534d266d46d568?family=HelveticaNeueLT+Pro+55+Roman" rel="stylesheet" type="text/css"/>
         <link href="//db.onlinewebfonts.com/c/5fe894d3e06d8f07fbe9d80b3157afd5?family=HelveticaNeueLT+Pro+55+Roman" rel="stylesheet" type="text/css"/>
         <script type="text/javascript">
@@ -34,9 +33,6 @@
                         <li class="nav-item mx-4">
                             <span><a href=<?= site_url('index.php/controller/support'); ?> data-value="Support" data-type="MainMenu" class="navbar-text text-white">Support</a></span>
                         </li>
-                        <!-- <li class="nav-item mx-4">
-                            <span><a href="/insight" data-value="Insight" data-type="MainMenu" class="navbar-text text-white">Insight</a></span>
-                        </li> -->
                         <li class="nav-item mx-4">
                             <span><a href=<?= site_url('index.php/controller/catalog'); ?> data-value="Insight" data-type="MainMenu" class="navbar-text text-white">Catalog</a></span>
                         </li>
@@ -84,7 +80,7 @@
             </nav>
 
             <!-- Login -->
-            <div class="container-fluid collapse col-lg-4 float-left" id="collapseLogin" style="padding:0px;z-index: 1; position: fixed; margin-left : 1285px; max-width: 410px;height:440px; background-color: white">   
+            <div class="container-fluid collapse col-lg-4 float-left border" id="collapseLogin" style="padding:0px;z-index: 1; position: fixed; margin-left : 71%; max-width: 410px;height:440px; background-color: white">   
                 <div class="login-box" style="padding:27px; height: 440px; ">
                     <h4 class=""style="margin-top : 5px; margin-bottom: 50px; color: #3e3e3e;font-size: 18px">Login</h4>
                     <form id="login_form" name="log-in" action="" method="post">
@@ -95,7 +91,7 @@
                                             <label for="RememberMe" class="form-check-label">Remember Me</label>
                                         </div> -->
                         <div class="text-center">
-                            <input id="login_btn" type="submit" class="btn rounded-0 sm-2" name="submit form" value="Login" style="outline-width: 2px;outline-style: solid;outline-color:white">  
+                            <input id="login_btn" type="submit" class="btn rounded-0 sm-2" name="submit form" value="Login" style="outline-width: 2px;outline-style: solid;outline-color:white">
                         </div>
                     </form>
                     <div class="login-help text-center mt-4">
@@ -108,12 +104,12 @@
                     </div>
                 </div>
                 <div class="register-box text-center">
-                    <button href="#" class="btn lg-4" data-toggle="modal" data-target="#exampleModal">Register</button>
+                    <button href="#" class="btn lg-4" data-toggle="modal" data-target="#registerModal">Register</button>
                 </div>
             </div>
 
             <!-- Register -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
