@@ -60,6 +60,7 @@ $(document).ready(function() {
             alert(response.state);
             if(response.state == "new data created"){
                 $('#modalTambah').modal('toggle');
+                response.name = "<h7><a href='#' data-toggle='modal' data-target='#modalEdit'>"+response.name;
                 table.row.add(Object.values(response)).draw();
                 // increment counter
                 $('#counter').text(function(){

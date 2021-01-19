@@ -47,7 +47,7 @@ $(document).ready(function(){
                 alert(response);
                 if(response == "success creating profile"){
                     $('.form-control').val('');
-                    $('.modal').hide();
+                    $('#registerModal').modal('toggle');
                 }
             }
         });

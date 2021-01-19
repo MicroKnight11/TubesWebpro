@@ -9,6 +9,8 @@ class Controller extends CI_Controller
 		$this->load->model('Profile_M');
 	}
 
+	// kalo ingin ada slider, ubah landing jadi landing2
+	// tapi cssnya jadi agak ngaco
 	public function index()
 	{
 		$this->load->view('header');
